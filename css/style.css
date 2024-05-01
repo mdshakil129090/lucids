@@ -1,0 +1,683 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+  
+
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(../images/lucid_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header h1{
+    
+color: #ffffff;
+    
+margin-bottom: 15px;
+}
+header h5{
+    
+color: #008ed6;
+    
+text-transform: uppercase;
+    
+margin-bottom: 15px;
+    
+font-size: .9rem;
+}
+header p{
+    
+color: #999999;
+    
+margin-bottom: 50px;
+    
+text-transform: capitalize;
+}
+header a{
+    
+}
+header ul{
+    
+}
+header ul li{
+    
+}
+header ul li a {
+    
+}
+
+.btn_download{
+
+border-radius: 6px;
+
+color: #ffff;
+
+letter-spacing: 3px;
+
+
+border: 1px solid #008ecb;
+
+background-color: #008ecb;
+
+padding: 8px 16px;
+}
+.btn_features{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #999999;
+    margin-left: 8px;
+    padding: 8px 16px;
+}
+.height{
+    min-height: 90vh;
+    align-items: center;
+}
+.btn_download:hover{
+    background-color: transparent;
+    border: 1px solid #008ed6;
+    color: white;
+}
+.btn_features:hover{
+    background-color: #008ed6;
+    border: 1px solid #008ed6;
+    color: white;
+}
+    
+.nav-link{
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 !important;
+}
+.banner_img{
+    bottom: 0;
+    margin-left: 163px;
+    position: absolute;
+}
+
+.nav-link:hover{
+    background-color: transparent;
+
+    color: #ffffff;
+}
+.nav-link::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    width: 0;
+    background-color: #008ed6;
+
+}
+.nav-link::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    background-color: #008ed6;
+
+}
+.nav-link:hover::after{
+    width: 48%;
+    transition: .4s ease-in-out;
+}
+.nav-link:hover::before{
+    width: 48%;
+    transition: .4s ease-in-out;
+}
+.nav-item{
+    margin: 15px;
+}
+.feature_section {
+   
+
+background-color: #ffffff;
+
+min-height: 58vh;
+}
+.feature_section h1{
+    
+text-align: center;
+    
+font-weight: 700;
+}
+.feature_section h3{
+    
+margin-top: 15px;
+}
+.feature_section h5{
+    
+text-transform: uppercase;
+    
+text-align: center;
+    
+margin-top: 30px;
+    
+color: #008ed6;
+    
+font-weight: 700;
+    
+margin-bottom: 20px;
+}
+.heading  span{
+    display: block;
+   
+   height: 2px;
+   width: 100px;
+   margin: auto;
+   margin-top: 8px;
+   position: relative;
+   
+   
+   
+
+    
+}
+.heading  span::after{
+    content: '';
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    transition: .4s all ease-in-out;
+    
+    background-color: #008ed6;
+    
+}
+.heading span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height:2px;
+    transition: .4s all ease-in-out;
+    background-color: #008ed6;
+    
+    
+}
+.feature_section i{
+
+margin-top: 104px;
+
+color: #008ed6;
+
+border: 1px solid #bbbb;
+
+padding: 30px;
+
+border-radius: 50%;
+font-size: 2rem;
+}
+    
+.feature_section p{
+    
+text-transform: capitalize;
+    
+margin-top: 10px;
+}
+.feature_section:hover .heading span::after{
+    width: 48%;
+}
+
+.feature_section:hover .heading span::before{
+    width: 48%;
+}
+.device_details_section:hover .heading span::after{
+    width: 48%;
+}
+.device_details_section:hover .heading span::before{
+    width: 48%;
+}
+.span_position{transform: translate(-278px);}
+
+
+.device_details_section{padding: 75px;}
+.device_details_section p{
+    
+text-transform: capitalize;
+    
+font-size: 16px;
+    
+line-height: 2;
+    
+padding: 5px 0;
+    
+line-height: 2.5;
+}
+.device_details_section ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 28px;
+}
+.device_details_section  ul li{
+    
+display: flex;
+    
+align-items: center;
+    
+margin-top: 7px;
+}
+.device_details_section  ul li i{
+    
+color: #129be5;
+}
+
+.device_details_section  ul li h5{
+    
+margin-left: 14px;
+    
+font-weight: 400;
+}
+.heading-two{padding: 69px 0;}
+.heading-two h5 {
+}
+.heading-two h1 {
+
+margin: 20px 0;
+}
+.customize_section{
+    background-color: #f2f2f2;
+    padding: 150px;
+}
+.customize_section img {
+    height: 129%;
+}
+
+
+
+.customize_section:hover .heading span::after{width: 48%;}
+.customize_section:hover .heading span::before{width: 48%;}
+.pricing-section{
+    background-image: url(../images/lucid_6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pricing-section .heading{
+    
+text-align: center;
+    
+color: #ffff;
+    
+padding: 83px;
+}
+.pricing-section .heading h1 {
+
+}
+.pricing-section .heading h5 {
+    
+}
+
+.pricing-section:hover .heading span::after{
+    width: 48%;
+}
+.pricing-section:hover .heading span::before{
+    width: 48%;
+}
+.add_section{
+
+background-color: #15141a;
+
+color: white;
+
+padding: 46px;
+}
+
+.add_section h1{
+    
+font-size: 2.2rem;
+    
+font-weight: 700;
+}
+.add_section span{
+    
+font-weight: 200;
+}
+.add_section a{
+    
+}
+.btn_add_sec{
+
+background-color: #0086ce;
+
+border: 1px solid #0086ce;
+
+padding: 9px 21px;
+
+border-radius: 0;
+
+margin-left: 28px;
+}
+.btn_add{
+    
+color: white;
+    
+background: transparent;
+    
+border: 1px solid #f3f3f3;
+    
+border-radius: 0;
+    
+padding: 9px 19px;
+}
+.add_sed_btn{
+    
+display: flex;
+    
+justify-content: end;
+    
+padding: 0;
+}
+.btn_add:hover{
+    background-color: #0086ce;
+    border: 1px solid #0086ce;
+    padding: 9px 21px;
+    border-radius: 2px;
+}
+.btn_add_sec:hover{
+    color: white;
+    
+background: transparent;
+    
+border: 1px solid #f3f3f3;
+    
+border-radius: 2px;
+    
+padding: 9px 19px;
+
+}
+.plan-section{
+    padding: 80px 0;
+
+}
+.plan-section:hover .price_span::after{
+    width: 48%;
+}
+.plan-section:hover .price_span::before{
+    width: 48%;
+}
+.table_content{
+
+text-align: center;
+
+padding: 0;
+
+border: 1px solid #cdcbcb;
+
+border-radius: 4px;
+
+width: 23%;
+}
+.plan-section .heading{
+    padding-bottom: 50px;
+}
+.table_content h4{
+
+color: #0086ce;
+
+border-bottom: 1px solid #cdcbcb;
+
+padding: 20px 0;
+}
+.table_content h1{
+
+padding-top: 26px;
+
+font-size: 62px;
+}
+.table_content p{
+
+padding-bottom: 26px;
+}
+.table_content a{
+
+background-color: transparent;
+
+color: #0086ce;
+
+border: 1px solid #cdcbcb;
+
+border-radius: 7px;
+
+padding: 10px 26px;
+
+font-weight: 800;
+
+margin: 0;
+
+margin-bottom: 30px;
+}
+.table_content a:hover{
+    
+background-color: #008ecb;
+
+color:white;
+
+border: 1px solid #008ecb;
+
+border-radius: 7px;
+
+padding: 10px 26px;
+
+font-weight: 800;
+
+margin: 0;
+
+margin-bottom: 30px;
+
+}
+.price_table h1 sup{
+    
+font-size: 2.1rem;
+}
+.price_table{
+    justify-content: space-between;
+}
+.detail_p{
+    padding: 31px;
+    border-top: 1px solid #cdcbcb;
+}
+.pricing-section p{
+
+color: #bbbbbb;
+
+line-height: 2rem;
+
+margin-bottom: 22px;
+
+text-transform: capitalize;
+
+font-weight: 600;
+
+font-style: italic;
+}
+.clint_section{
+
+display: flex;
+
+margin-bottom: 56px;
+
+align-items: center;
+}
+.clint_image{
+
+margin-right: 21px;
+}
+.clint_details{
+
+color: #bbb;
+}
+.clint_details p{margin: 0;margin-bottom: 5px;}
+.clint_details h5{font-size: 14px;}
+.owl-dots{
+
+display: flex;
+
+justify-content: center;
+
+padding-bottom: 34px;
+}
+.owl-dots .owl-dot span {
+    height: 10px;
+    width: 10px;
+    background-color: #abb4b9;
+    display: block;
+    margin: 3px;
+    border-radius: 50px;
+}
+.owl-dots .owl-dot.active span {
+    background-color: #008ecb;
+}
+.contact_section{
+    background-color: #ededed;
+    padding: 50px;
+    position: relative;
+    padding-bottom: 390px;
+}
+.contact_section h5{
+    
+}
+.contact_section h1{
+    
+text-transform: capitalize;
+    
+margin-top: 16px;
+}
+.contact_section:hover .price_span::after{
+    width: 48%;
+}
+.contact_section:hover .price_span::before
+{
+    width: 48%;
+}
+.contact_section i{
+
+color: #0086ce;
+
+margin-bottom: 18px;
+}
+.contact_section p{
+
+font-size: 15px;
+}
+.contact_information{
+
+justify-content: center;
+
+align-items: center;
+
+display: flex;
+
+text-align: center;
+
+margin-top: 40px;
+}
+.form{
+    
+background-color: black;
+    
+padding: 73px;
+    
+position: absolute;
+    
+width: 49%;
+    
+left: 50%;
+    
+transform: translate(-50%);
+    
+bottom: -56px;
+}
+
+.form input{
+
+background-color: transparent;
+
+color: #ffff;
+
+padding: 11px;
+border-radius: 0;
+}
+.form input:focus{
+    background-color: transparent;
+    color: #ffff;
+}
+.form textarea:focus{
+    background-color: transparent;
+    color: #ffff;
+
+}
+.form textarea{
+    
+background-color: transparent;
+
+    
+color: #ffff;
+    
+padding: 15px;
+border-radius: 0;
+}
+.form .btn-submit{
+    
+background-color: #0086ce;
+    
+padding: 7px 40px;
+    
+border-radius: 0;
+}
+.form input::placeholder{
+    color: #ffff;
+ 
+    
+}
+.form textarea::placeholder{ color: #ffff;
+
+}
+.map iframe{
+    display: block;
+}
+footer{
+
+padding: 50px;
+
+background-color: black;
+
+color: beige;
+}
+footer i{
+
+color: #0086ce;
+
+margin-right: 35px;
+
+font-size: 20px;
+}
+footer p{
+    
+font-size: 14px;
+    
+margin-top: 16px;
+}
+    
+
+
